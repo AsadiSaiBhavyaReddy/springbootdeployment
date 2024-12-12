@@ -1,0 +1,81 @@
+/* style.css */
+body {
+    background-color: #e8f5e9; /* Light green background */
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #2e7d32; /* Dark green color */
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    margin: 20px;
+    background-color: #a5d6a7; /* Soft green for navbar background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2e7d32; /* Dark green for text */
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.navbar a:hover {
+    background-color: #66bb6a; /* Medium green for hover background */
+    color: white; /* White text on hover */
+    border-bottom: none;
+}
+
+/* Form container styling */
+.form-container {
+    width: 400px;
+    margin: 20px auto; /* Center align and add top/bottom margin */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    color: #2e7d32; /* Dark green */
+}
+
+label {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #a5d6a7;
+    border-radius: 4px;
+}
+
+button[type="submit"], button[type="reset"] {
+    background-color: #66bb6a;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #2e7d32;
+}
